@@ -14,6 +14,9 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ThemeModule } from './@theme/theme.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ChartModule } from 'primeng/chart'
+import { from } from 'rxjs';
+
 
 @NgModule({
   declarations: [AppComponent],
@@ -22,6 +25,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
+    ChartModule,
 
     NgbModule.forRoot(),
     ThemeModule.forRoot(),
